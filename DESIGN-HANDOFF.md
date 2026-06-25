@@ -14,7 +14,7 @@ This archive is the source of truth for turning the design into production code.
 - HTML screens detected: 2
 - Stylesheets detected: 0
 - Script/component files detected: 0
-- Supporting assets detected: 86
+- Supporting assets detected: 98
 
 ## Responsive contract
 Validate the implementation across this 2025–2026 viewport matrix:
@@ -159,6 +159,18 @@ For responsive web exports, treat these as a modern breakpoint system for one ad
 - `mqswdxmc-3.png`
 - `mqswfucc-3.png`
 - `mqswhfr4-magnific_melhore-a-qualidade-da-im_aQp5JrSfSh.png`
+- `mqtp5v5d-magnific_melhore-a-qualidade-da-im_brmZV895Y2.png`
+- `mqtp6nko-magnific_melhore-a-qualidade-da-im_jSuWBpTLD0.png`
+- `mqtp6yvb-magnific_melhore-a-qualidade-da-im_mCV7472hJQ.png`
+- `mqtp7k8u-magnific_melhore-a-qualidade-da-im_EqX9XPAuuO.png`
+- `mqtpd7iz-magnific_melhore-a-qualidade-da-im_xgEYqKAjfW.png`
+- `mqtpkezs-magnific_melhore-a-qualidade-da-im_xgEYqKAjfW-_1_.png`
+- `mqtpl5vj-magnific_melhore-a-qualidade-da-im_brmZV895Y2-_1_.png`
+- `mqtplo97-magnific_melhore-a-qualidade-da-im_mCV7472hJQ-_1_.png`
+- `mqtpoco0-magnific_melhore-a-qualidade-da-im_jSuWBpTLD0-_1_.png`
+- `mqtpslzx-magnific_melhore-a-qualidade-da-im_LUQcfdcswO.png`
+- `mqtpt7o9-magnific_melhore-a-qualidade-da-im_l7HTIXLgv9.png`
+- `mqtq08yy-magnific_melhore-a-qualidade-da-im_l7HVZJKgv9.png`
 
 ## Coding checklist for AI tools
 1. Inspect `index.html` and `DESIGN-MANIFEST.json` first and identify reusable components before coding.
