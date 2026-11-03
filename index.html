@@ -60,9 +60,10 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-@font-face{font-family:'AppetitePro';src:local('AppetitePro'),local('Appetite Pro');font-display:swap}
+@font-face{font-family:'Nexa';src:url('fonts/nexa-bold.woff') format('woff');font-weight:400 700;font-style:normal;font-display:swap}
+@font-face{font-family:'Nexa';src:url('fonts/nexa-heavy.woff') format('woff');font-weight:800 900;font-style:normal;font-display:swap}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --red:#cb1517;
@@ -74,7 +75,7 @@
   --text:#18100a;
   --muted:#7a6540;
   --border:#e8dfd0;
-  --font-d:'AppetitePro','Abril Fatface',Georgia,serif;
+  --font-d:'Nexa','Montserrat',-apple-system,system-ui,sans-serif;
   --font-b:'Montserrat',-apple-system,system-ui,sans-serif;
 }
 html{scroll-behavior:smooth}
@@ -173,7 +174,7 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--text);line-heigh
 }
 .ticker-track:hover{animation-play-state:paused}
 .ticker-item{
-  font-family:var(--font-d);
+  font-family:var(--font-d);font-weight:700;
   font-size:clamp(13px,1.5vw,18px);
   color:#fff;letter-spacing:.04em;
   padding:0 24px;
@@ -192,7 +193,7 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--text);line-heigh
   100%{transform:translateX(-50%)}
 }
 .sec-title{
-  font-family:var(--font-d);
+  font-family:var(--font-d);font-weight:900;
   font-size:clamp(24px,4.5vw,44px);
   color:var(--text);line-height:1.15;margin-bottom:8px;
 }
